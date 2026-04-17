@@ -1,0 +1,19 @@
+# SAM build artifacts
+.aws-sam/
+
+# Node
+webui/node_modules/
+webui/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Windows Zone.Identifier metadata
+*:Zone.Identifier
+
+# Local env
+webui/.env.local
+samconfig.toml
